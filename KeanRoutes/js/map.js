@@ -30,6 +30,10 @@ function initMap() {
     } else {
         document.getElementById("output").textContent = "Geolocation not supported.";
     }
+    //Map centering or not
+    google.maps.event.addListener(map, 'dragstart', () => {
+        userHasMovedMapManually = true;
+    });
     //Markers
     Object.entries(locations).forEach(([categoryName, category]) => {
         Object.values(category).forEach(loc => {
@@ -70,7 +74,10 @@ function success(pos) {
     const lat = pos.coords.latitude;
     const lng = pos.coords.longitude;
     userLocation = { lat, lng };
-    map.setCenter(userLocation);
+    //Condition to see if map has to be centered or not
+    if (!userHasMovedMapManually) {
+        map.setCenter(userLocation);
+    }
     if (!userMarker) {
         userMarker = new google.maps.Marker({
             position: userLocation,
