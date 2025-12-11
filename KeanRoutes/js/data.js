@@ -424,7 +424,7 @@ const locations = {
             id: "tropicana_diner",
             name: "Tropicana Diner and Bakery",
             address: "Tropicana Diner and Bakery, Morris Avenue, Elizabeth, NJ, USA",
-            description: "Lunch, brunch, breakfast, dinner.",
+            description: "Lunch, brunch, breakfast, dinner, bread, pastries.",
             lat: 40.6790872,
             lng: -74.2060929
         },
@@ -432,7 +432,7 @@ const locations = {
             id: "mark_twain",
             name: "Mark Twain Diner & Restaurant",
             address: "Mark Twain Diner & Restaurant, Morris Avenue, Union, NJ, USA",
-            description: "Breakfast, lunch, dinner.",
+            description: "Dinner close to drive it comes with appatizers(fried calamari,moterzella sticks, etc.), burgers, pizza, pasta etc.",
             lat: 40.6922353,
             lng: -74.2541617
         },
@@ -472,7 +472,7 @@ const locations = {
             id: "dairy_queen",
             name: "Dairy Queen",
             address: "Dairy Queen Grill & Chill, Morris Avenue, Union, NJ, USA",
-            description: "Ice cream and fast-food staples.",
+            description: "Ice cream and fast-food staples(chicken tenders,burgers, fries, etc.), milkshakes .",
             lat: 40.7147791,
             lng: -74.253184
         },
@@ -480,7 +480,7 @@ const locations = {
             id: "dunkin",
             name: "Dunkin'",
             address: "Dunkin', Morris Avenue, Union, NJ, USA",
-            description: "Coffee, breakfast, sandwiches.",
+            description: "Coffee, breakfast, sandwiches, breakfeast, donuts.",
             lat: 40.6891189,
             lng: -74.2458525
         },
@@ -709,4 +709,5 @@ const locations = {
             lng: null
         }
     }
+
 };
