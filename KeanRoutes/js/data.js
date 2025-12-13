@@ -35,7 +35,7 @@ const locations = {
         carole_hynes_field_house: {
             id: "carole_hynes",
             name: "Carole Hynes Field House",
-            address: "",
+            address: "40.68040,-74.23917",
             description: "Restrooms + weight room, concessions food",
             lat: null,
             lng: null
@@ -415,7 +415,7 @@ const locations = {
         kean_kitchen: {
             id: "kean_kitchen",
             name: "Kean Kitchen",
-            address: "",
+            address: "40.67648,-74.23516",
             description: "Kean's dining hall offering salads, fruits, grilled entrees, pasta, and full meals.",
             lat: null,
             lng: null
