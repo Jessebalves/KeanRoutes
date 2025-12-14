@@ -4,6 +4,10 @@ let userMarker = null;
 let geocoder;
 let watchId = null;
 let lastUpdateTime = 0;
+let autoCenter = true;
+let currentPosition = null;
+let activeDestination = null;
+let activeMode = null;
 function initMap() {
     geocoder = new google.maps.Geocoder();
     //Generating map, route, and displaying route.
@@ -31,8 +35,11 @@ function initMap() {
         document.getElementById("output").textContent = "Geolocation not supported.";
     }
     //Map centering or not
-    google.maps.event.addListener(map, 'dragstart', () => {
-        userHasMovedMapManually = true;
+    map.addListener("dragstart", () => {
+        autoCenter = false;
+    });
+    directionsRenderer.setOptions({
+        preserveViewport: true
     });
     //Markers
     Object.entries(locations).forEach(([categoryName, category]) => {
@@ -74,10 +81,6 @@ function success(pos) {
     const lat = pos.coords.latitude;
     const lng = pos.coords.longitude;
     userLocation = { lat, lng };
-    //Condition to see if map has to be centered or not
-    if (!userHasMovedMapManually) {
-        map.setCenter(userLocation);
-    }
     if (!userMarker) {
         userMarker = new google.maps.Marker({
             position: userLocation,
@@ -85,12 +88,22 @@ function success(pos) {
             title: "Your location",
         });
     } else {
-        userMarker.setPosition(userLocation); // Moves marker
+        userMarker.setPosition(userLocation);
     }
-    document.getElementById("output").innerHTML = `
-        <b>Latitude:</b> ${lat.toFixed(5)}<br>
-        <b>Longitude:</b> ${lng.toFixed(5)}
-        `;
+    if (autoCenter) {
+        map.panTo(userLocation);
+    }
+    if (activeDestination && activeMode) {
+        const now = Date.now();
+        if (now - lastUpdateTime > 5000) { 
+            lastUpdateTime = now;
+            calculateAndDisplayRoute(
+                userLocation,
+                activeDestination,
+                activeMode
+            );
+        }
+    }
 }
 function error() {
     document.getElementById("output").textContent = "Unable to retrieve your location.";
@@ -101,45 +114,36 @@ function getRoute() {
         alert("User location not available yet.");
         return;
     }
-    //Places library setting route
+    const modeInput = document.querySelector("input[name='mode']:checked");
+    activeMode = modeInput ? modeInput.value : "DRIVING";
     const place = autocomplete.getPlace();
-//    if (!place || !place.geometry) {
-//        alert("Please select a valid destination from the list.");
-//        return;
-//    }
-    const destination = {
-        lat: place.geometry.location.lat(),
-        lng: place.geometry.location.lng(),
-    };
-    const mode = document.querySelector("input[name='mode']:checked").value;
-    calculateAndDisplayRoute(userLocation, destination, mode);
-}
-function startLiveNavigation(destination, mode = "DRIVING") {
-    if (!navigator.geolocation) {
-        alert("Geolocation is not supported by your browser.");
+    if (place && place.geometry) {
+        activeDestination = {
+            lat: place.geometry.location.lat(),
+            lng: place.geometry.location.lng(),
+        };
+        calculateAndDisplayRoute(userLocation, activeDestination, activeMode);
+        lastUpdateTime = 0;
         return;
     }
-    // Start watching user movement
-    watchId = navigator.geolocation.watchPosition(
-        (position) => {
-            const now = Date.now();
-            if (now - lastUpdateTime < 5000) return;
-            lastUpdateTime = now;
-            const origin = {
-                lat: position.coords.latitude,
-                lng: position.coords.longitude
+    const address = document.getElementById("destination-input").value;
+    if (!address) {
+        alert("Please enter a destination.");
+        return;
+    }
+    geocoder.geocode({ address }, (results, status) => {
+        if (status === "OK" && results[0]) {
+            activeDestination = {
+                lat: results[0].geometry.location.lat(),
+                lng: results[0].geometry.location.lng(),
             };
-            calculateAndDisplayRoute(origin, destination, mode);
-        },
-        (error) => {
-            console.error("Geolocation error:", error);
-        },
-        {
-            enableHighAccuracy: true,
-            maximumAge: 0,
-            timeout: 10000
+            activeMode = modeInput.value;
+            lastUpdateTime = 0;
+            calculateAndDisplayRoute(userLocation, activeDestination, activeMode);
+        } else {
+            alert("Could not find destination.");
         }
-    );
+    });
 }
 function stopLiveNavigation() {
     if (watchId) {
@@ -165,4 +169,10 @@ function calculateAndDisplayRoute(origin, destination, mode) {
         }
     }
     );
+}
+//Button to center map
+function recenterMap() {
+    if (!userLocation || !map) return;
+    autoCenter = true;
+    map.panTo(userLocation);
 }

@@ -132,6 +132,24 @@ footer {
   width:0px;
 }
 
+#recenter-btn {
+    position: fixed;
+    bottom: 140px;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#recenter-btn:active {
+    transform: scale(0.95);
+}
 /*#navigation_bar ul ul li:hover,ul ul li:active, ul ul li:focus{
   display:block;
   background-color: purple;
@@ -468,6 +486,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     z-index: 1; /* Ensures map content is above the glow */
+    overflow: visible;
 }
 
 .map_container::before {
