@@ -1,5 +1,4 @@
 # KeanRoutes
-Web application created to help students of Kean University in Union to navigate campus more efficiently.
 
 <details>
   <summary>Table of Contents</summary>
@@ -14,7 +13,7 @@ Web application created to help students of Kean University in Union to navigate
 
 
 ## Summary
-*KeanRoutes is an application created by undergrad students attending the university for a Software Engineering class.
+*KeanRoutes is an web application created to help students of Kean University in Union to navigate campus more efficiently..
 All of the developers on this project understand how daunting and confusing navigating Kean's campus for the first
 time can be, as we were all freshman or transfer students trying to navigate our way around campus at one point.*  
 
