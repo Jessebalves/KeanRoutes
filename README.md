@@ -28,12 +28,12 @@ Live Website : https://keanroutes.com
   - After the download is complete, run the executable file to begin the setup.
 
 ## Features
-  - Navigation Bar
-  - Navigation Bar Search Bar
-  - Interactive Map
-  - Location Tracking
-  - GPS Routing
-  - Map Markers
+  - Navigation Bar : Contains a concise list of academic buildings, food spots, events, and other locations such as convienence stores and gas stations.
+  - Navigation Bar Search Bar : Allows for users to enter keywords which minimize the number of entries present in the navigation bar only related to the keyword entered.
+  - Interactive Map : Map that allows users to zoom in and out.
+  - Location Tracking : Live tracking feature that is updated when the user changes their current location.
+  - GPS Routing : Live routing, distance from destination in miles displayed, time from destination is displayed as well.
+  - Map Markers : Custom visual markers to highlight locations associated with Kean University. 
 
 ## Technologies Used
   - HTML
