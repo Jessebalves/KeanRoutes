@@ -19,7 +19,7 @@ All of the developers on this project understand how daunting and confusing navi
 time can be, as we were all freshman or transfer students trying to navigate our way around campus at one point.  
 
 ## Usage
-To use this software, you only need to have Visual Studio Code installed along with the extension Live Server! You can also go directly to the website for a live demo.
+To use this software, you only need to have Visual Studio Code installed along with the extension Live Server! You can also go directly to the website for a live demo.  
 Visual Studio Code Download Link : http://code.visualstudio.com/download  
 Live Website : https://keanroutes.com
 
