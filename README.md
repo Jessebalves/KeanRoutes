@@ -53,5 +53,5 @@ Live Website : https://keanroutes.com
 - *Tiffany Choi* - *tcsz412@gmail.com*
 - *Ryan Guillen* - *ryanguillen2004@gmail.com*
 - *Bryan Ortega* - *bryanortega2001@gmail.com*
-- *Alexander Ribau* - *tigjho@gmail.com
+- *Alexander Ribau* - *tigjho@gmail.com*
 <!--- *Any other contact information*-->
