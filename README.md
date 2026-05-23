@@ -47,14 +47,11 @@ Live Website : https://keanroutes.com
 
 ## What We Learned
 
-## Acknowledgements 
-  * <b>Jesse Alves</b> : Team Lead & Developer
-    - LinkedIn
-    - <a href = "https://github.com/Jessebalves">Github</a>
-  * <b>Tiffany Choi</b> : Tester & Developer
-    - LinkedIn
-    - <a href = "https://github.com/Titania412">Github</a>
-  * <b>Ryan Guillen</b>
-    - <b>Role</b>: UI Designer & Developer
-  * Bryan Ortega : GPS Developer
-  * Alexander Ribau : Data Analyst & Developer
+## Contact
+<!--- *First and last name* - *Email address*-->
+- *Jesse Alves* - *jessebalves@gmail.com*
+- *Tiffany Choi* - *tcsz412@gmail.com*
+- *Ryan Guillen* - *ryanguillen2004@gmail.com*
+- *Bryan Ortega* - *bryanortega2001@gmail.com*
+- *Alexander Ribau* - *tigjho@gmail.com
+<!--- *Any other contact information*-->
