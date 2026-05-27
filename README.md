@@ -3,12 +3,19 @@
 <details>
   <summary>Table of Contents</summary>
   
-  - [Summary](#Summary)
-  - [Usage](#Usage)
-  - [Features](#Features) 
-  - [Technologies Used](#technologies-used)
-  - [What we Leaned](#what-we-learned)
-  - [Acknowledgements](#Acknowledgements)
+- [Summary](#summary)
+- [Features](#features)
+- [Visuals](#visuals)
+- [Technologies](#technologies)
+- [What I Learned](#what-i-learned)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Code Examples](#code-examples)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
 </details>
 
 
