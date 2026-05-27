@@ -13,7 +13,7 @@
 
 
 ## Summary
-*KeanRoutes is an web application created to help students of Kean University in Union to navigate campus more efficiently..
+*KeanRoutes is an web application created to help students of Kean University in Union to navigate campus more efficiently.
 All of the developers on this project understand how daunting and confusing navigating Kean's campus for the first
 time can be, as we were all freshman or transfer students trying to navigate our way around campus at one point.*  
 
@@ -32,9 +32,12 @@ Live Website : https://keanroutes.com
   - Interactive Map : Map that allows users to zoom in and out.
   - Location Tracking : Live tracking feature that is updated when the user changes their current location.
   - GPS Routing : Live routing, distance from destination in miles displayed, time from destination is displayed as well.
-  - Map Markers : Custom visual markers to highlight locations associated with Kean University. 
+  - Map Markers : Custom visual markers to highlight locations associated with Kean University.
 
-## Technologies Used
+## Visuals
+
+
+## Technologies 
   - HTML
   - CSS
   - JavaScript
@@ -47,6 +50,24 @@ Live Website : https://keanroutes.com
 
 ## What We Learned
 
+## Setup and Installation
+*Provide a clear, step-by-step guide to set up the project locally.*
+1. Clone the repo: `git clone [URL]`
+2. Install dependencies: `[Example Command]`
+3. Additional steps...
+
+## Usage
+*Guide on how to use the project, include example commands or scripts.*
+
+## Code Examples
+*Show small, but significant snippets of code from your project.*
+
+## How to Contribute
+*Encourage contributions and provide guidelines for how others can help.*
+
+## License
+*State the license under which your project is available.*
+
 ## Contact
 <!--- *First and last name* - *Email address*-->
 - *Jesse Alves* - *jessebalves@gmail.com*
@@ -55,3 +76,6 @@ Live Website : https://keanroutes.com
 - *Bryan Ortega* - *bryanortega2001@gmail.com*
 - *Alexander Ribau* - *tigjho@gmail.com*
 <!--- *Any other contact information*-->
+
+## Acknowledgments
+*Credits to individuals or resources that helped you during the project.*
