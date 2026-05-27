@@ -7,7 +7,7 @@
 - [Features](#features)
 - [Visuals](#visuals)
 - [Technologies](#technologies)
-- [What I Learned](#what-i-learned)
+- [What We Learned](#what-we-learned)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Code Examples](#code-examples)
