@@ -42,6 +42,8 @@ Live Website : https://keanroutes.com
   - Map Markers : Custom visual markers to highlight locations associated with Kean University.
 
 ## Visuals
+<img width="1440" height="777" alt="Screenshot 2026-05-29 at 3 41 57 PM" src="https://github.com/user-attachments/assets/067a735b-c378-4078-9caa-faf56ead4dd8" />
+<img width="1440" height="780" alt="Screenshot 2026-05-29 at 3 42 17 PM" src="https://github.com/user-attachments/assets/d4985005-d4a8-4940-854f-780144d081fa" />
 <img width="1440" height="775" alt="Screenshot 2026-05-29 at 3 39 41 PM" src="https://github.com/user-attachments/assets/ca667efb-ac9a-4b40-bbcb-c91ab6c5cd32" />
 <img width="1440" height="779" alt="Screenshot 2026-05-29 at 3 39 54 PM" src="https://github.com/user-attachments/assets/9dccb565-1f70-4800-9dcf-6616de8d74de" />
 
