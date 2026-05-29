@@ -45,7 +45,7 @@ Live Website : https://keanroutes.com
 <img width="1440" height="777" alt="Screenshot 2026-05-29 at 3 41 57 PM" src="https://github.com/user-attachments/assets/067a735b-c378-4078-9caa-faf56ead4dd8" />
 <img width="1440" height="780" alt="Screenshot 2026-05-29 at 3 42 17 PM" src="https://github.com/user-attachments/assets/d4985005-d4a8-4940-854f-780144d081fa" />
 <img width="1440" height="775" alt="Screenshot 2026-05-29 at 3 39 41 PM" src="https://github.com/user-attachments/assets/ca667efb-ac9a-4b40-bbcb-c91ab6c5cd32" />
-<img width="1440" height="779" alt="Screenshot 2026-05-29 at 3 39 54 PM" src="https://github.com/user-attachments/assets/9dccb565-1f70-4800-9dcf-6616de8d74de" />
+<!--<img width="1440" height="779" alt="Screenshot 2026-05-29 at 3 39 54 PM" src="https://github.com/user-attachments/assets/9dccb565-1f70-4800-9dcf-6616de8d74de" />-->
 
 
 
@@ -72,7 +72,10 @@ Live Website : https://keanroutes.com
 *Guide on how to use the project, include example commands or scripts.*
 
 ## Code Examples
-*Show small, but significant snippets of code from your project.*
+<!--*Show small, but significant snippets of code from your project.*-->
+<img width="775" height="524" alt="Screenshot 2026-05-29 at 4 06 30 PM" src="https://github.com/user-attachments/assets/765240dc-5d4a-4b62-ad68-094d0232540f" />
+<img width="714" height="724" alt="Screenshot 2026-05-29 at 4 06 49 PM" src="https://github.com/user-attachments/assets/6f28c3e1-befb-4d2f-9818-4f14c4132100" />
+<img width="787" height="670" alt="Screenshot 2026-05-29 at 4 07 09 PM" src="https://github.com/user-attachments/assets/36383424-5005-49c7-91b7-5e5b89b07d07" />
 
 ## How to Contribute
 *Encourage contributions and provide guidelines for how others can help.*
