@@ -11,7 +11,6 @@
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Code Examples](#code-examples)
-- [How to Contribute](#how-to-contribute)
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
@@ -77,8 +76,6 @@ Live Website : https://keanroutes.com
 <img width="714" height="724" alt="Screenshot 2026-05-29 at 4 06 49 PM" src="https://github.com/user-attachments/assets/6f28c3e1-befb-4d2f-9818-4f14c4132100" />
 <img width="787" height="670" alt="Screenshot 2026-05-29 at 4 07 09 PM" src="https://github.com/user-attachments/assets/36383424-5005-49c7-91b7-5e5b89b07d07" />
 
-## How to Contribute
-*Encourage contributions and provide guidelines for how others can help.*
 
 ## License
 *State the license under which your project is available.*
