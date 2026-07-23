@@ -59,12 +59,12 @@ Live Website : https://keanroutes.com
 
 
 ## What We Learned
+- Restricting an api key to a domain address. 
 
 ## Setup and Installation
 *Provide a clear, step-by-step guide to set up the project locally.*
 1. Clone the repo: `git clone https://github.com/Jessebalves/KeanRoutes.git`
-2. Install dependencies: `[Example Command]`
-3. Additional steps...
+2. Be aware that none of the google maps features will work as the api key is restricted. 
 
 ## Usage
 *Guide on how to use the project, include example commands or scripts.*
