@@ -86,4 +86,4 @@ Live Website : https://keanroutes.com
 <!--- *Any other contact information*-->
 
 ## Acknowledgments
-*Credits to individuals or resources that helped you during the project.*
+- Google Maps Platform - https://mapsplatform.google.com/
