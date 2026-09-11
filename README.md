@@ -22,15 +22,6 @@
 All of the developers on this project understand how daunting and confusing navigating Kean's campus for the first
 time can be, as we were all freshman or transfer students trying to navigate our way around campus at one point.*  
 
-## Usage
-To use this software, you only need to have Visual Studio Code installed along with the extension Live Server! You can also go directly to the website for a live demo.  
-Visual Studio Code Download Link : http://code.visualstudio.com/download  
-Live Website : https://keanroutes.com
-
-* Steps
-  - Download the corresponding download package of the Operating System you are using.
-  - After the download is complete, run the executable file to begin the setup.
-
 ## Features
   - Navigation Bar : Contains a concise list of academic buildings, food spots, events, and other locations such as convienence stores and gas stations.
   - Navigation Bar Search Bar : Allows for users to enter keywords which minimize the number of entries present in the navigation bar only related to the keyword entered.
@@ -67,7 +58,14 @@ Live Website : https://keanroutes.com
 2. Be aware that none of the google maps features will work as the api key is restricted. 
 
 ## Usage
-*Guide on how to use the project, include example commands or scripts.*
+<!--*Guide on how to use the project, include example commands or scripts.*-->
+To use this software, you only need to have Visual Studio Code installed along with the extension Live Server! You can also go directly to the website for a live demo.  
+Visual Studio Code Download Link : http://code.visualstudio.com/download  
+Live Website : https://keanroutes.com
+
+* Steps
+  - Download the corresponding download package of the Operating System you are using.
+  - After the download is complete, run the executable file to begin the setup.
 
 ## Code Examples
 <!--*Show small, but significant snippets of code from your project.*-->
