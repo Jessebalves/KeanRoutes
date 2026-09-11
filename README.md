@@ -23,7 +23,7 @@ All of the developers on this project understand how daunting and confusing navi
 time can be, as we were all freshman or transfer students trying to navigate our way around campus at one point.*  
 
 ## Features
-  - Navigation Bar : Contains a concise list of academic buildings, food spots, events, and other locations such as convienence stores and gas stations.
+  - Navigation Bar : Contains a concise list of academic buildings, food spots, events, and other locations such as convenience stores and gas stations.
   - Navigation Bar Search Bar : Allows for users to enter keywords which minimize the number of entries present in the navigation bar only related to the keyword entered.
   - Interactive Map : Map that allows users to zoom in and out.
   - Location Tracking : Live tracking feature that is updated when the user changes their current location.
@@ -47,6 +47,7 @@ time can be, as we were all freshman or transfer students trying to navigate our
   - Cloudflare
   - DigitalOcean
   - NGINX
+  - Linux
 
 
 ## What We Learned
