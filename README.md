@@ -86,3 +86,4 @@ Live Website : https://keanroutes.com
 
 ## Acknowledgments
 - Google Maps Platform - https://mapsplatform.google.com/
+- Kean Events - https://www.kean.edu/events
