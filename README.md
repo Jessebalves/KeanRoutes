@@ -54,7 +54,7 @@ time can be, as we were all freshman or transfer students trying to navigate our
 - Restricting an api key to a domain address. 
 
 ## Setup and Installation
-*Provide a clear, step-by-step guide to set up the project locally.*
+<!--*Provide a clear, step-by-step guide to set up the project locally.*-->
 1. Clone the repo: `git clone https://github.com/Jessebalves/KeanRoutes.git`
 2. Be aware that none of the google maps features will work as the api key is restricted. 
 
